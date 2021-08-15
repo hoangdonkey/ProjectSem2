@@ -14,9 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
-Route::get('/register', 'RegisterController@create');
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/causes', function () {
+    return view('causes');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/causes-single', function () {
+    return view('causes-single');
+});
+
+Route::get('register', 'RegisterController@create');
 
 Route::post('register', 'RegisterController@store');
