@@ -80,7 +80,7 @@
 
                   </button>
 
-                  <a class="navbar-brand" href="{{url('/')}}"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  <a class="navbar-name" href="{{url('/')}}"><h1>Give-AID</h1></a>
 
                 </div>
 
@@ -102,6 +102,12 @@
                     </li>
                     <li><a href="{{url('gallery')}}">GALLERY</a></li>
                     <li><a href="{{url('contact')}}">CONTACT</a></li>
+
+                    @if( auth()->check() )
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('dashboard')}}">{{ auth()->user()->name }}</a>
+                    </li>
+                    @endif
 
                   </ul>
 
@@ -254,11 +260,6 @@
         </div>
 
     </footer>
-
-
-
-
-
 
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

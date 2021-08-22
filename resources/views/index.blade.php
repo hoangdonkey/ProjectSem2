@@ -44,7 +44,7 @@
 
                         <ul class="list-unstyled list-inline header-contact">
                             <li> <i class="fa fa-phone"></i> <a href="tel:">+212 658 986 213 </a> </li>
-                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">contact@sadaka.org</a> </li>
+                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">Give-AID@gmail.com</a> </li>
                        </ul> <!-- /.header-contact  -->
 
                     </div>
@@ -82,7 +82,7 @@
 
                   </button>
 
-                  <a class="navbar-brand" href="index.blade.php"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  <a class="navbar-name" href="{{url('/')}}"><h1 class="logo">Give-AID</h1></a>
 
                 </div>
 
@@ -96,7 +96,7 @@
 
                       <ul class="submenu">
                          <li class="submenu-item"><a href="{{url('/causes')}}">Causes list </a></li>
-                         <li class="submenu-item"><a href="{{url('/causes-singles')}}">Single cause </a></li>
+                         <li class="submenu-item"><a href="{{url('/causes-single')}}">Single cause </a></li>
                          <li class="submenu-item"><a href="{{url('/causes-single')}}">Single cause </a></li>
                          <li class="submenu-item"><a href="{{url('/causes-single')}}">Single cause </a></li>
                       </ul>
@@ -104,7 +104,11 @@
                     </li>
                     <li><a href="{{url('/gallery')}}">GALLERY</a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
-
+                    @if( auth()->check() )
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('dashboard')}}">{{ auth()->user()->name }}</a>
+                    </li>
+                    @endif
                   </ul>
 
                 </div> <!-- /#navbar -->
