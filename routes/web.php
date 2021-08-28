@@ -22,9 +22,7 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/causes', function () {
-    return view('causes');
-});
+Route::get('/causes', 'CauseController@causelist');
 
 Route::get('/gallery', function () {
     return view('gallery');

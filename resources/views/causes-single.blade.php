@@ -7,7 +7,7 @@
 
 			<h1 class="page-title">{{ $causes->cause_title }}<span class="title-under"></span></h1>
 			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
+				{{$causes->category}}
 			</p>
 
 		</div>
@@ -68,17 +68,15 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>First Name</th>
-                                <th>Last Name</th>
                                 <th>Username</th>
+                                <th>Email</th>
                             </tr>
                             </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>{{$user->name}}</td>
+                                <td>{{$user->email}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
