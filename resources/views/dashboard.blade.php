@@ -9,7 +9,7 @@
     </div>
 </div>
 
-<h1 class="page-title text-center">Your Profile</h1>
+<h1 class="page-title text-center">Welcome back, {{$user->name}}</h1>
 <div class="container">
 <h3 class="">
         Name:   {{ $user->name }}

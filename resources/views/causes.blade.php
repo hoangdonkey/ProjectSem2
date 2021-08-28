@@ -1,8 +1,6 @@
 @extends('layouts.master')
 @section('content')
 
-
-
 	<div class="page-heading text-center">
 
 		<div class="container zoomIn animated">
@@ -264,12 +262,9 @@
 
 	    </div> <!-- /.our-causes -->
 
-
-
-
 	</div> <!-- /.main-container  -->
 
-    @endsection
+@endsection
 
     </body>
 </html>
