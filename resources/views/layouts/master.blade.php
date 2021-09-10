@@ -80,8 +80,7 @@
 
                   </button>
 
-                  <a class="navbar-name" href="{{url('/')}}"><h1>Give-AID</h1></a>
-
+                  <a class="navbar-name" href="{{url('/')}}"><img src="assets/images/logo.png" class="logo-group" width="70px" height="70px"></a>
                 </div>
 
                 <div id="navbar" class="navbar-collapse collapse pull-right">

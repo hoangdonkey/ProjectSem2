@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 use App\Models\User;
+use APP\Models\Admin;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -28,10 +29,10 @@ class CustomAuthController extends Controller
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
             return redirect()->intended('dashboard')
-                ->withSuccess('Signed in');
+                ->with('status', 'You have signed in!');
         }
 
-        return redirect("login")->withSuccess('Login details are not valid');
+        return back()->with('status', 'Login details are not valid');
     }
 
 
@@ -54,7 +55,7 @@ class CustomAuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
-        return redirect("dashboard")->withSuccess('You have signed-in');
+        return redirect("dashboard")->with('status', 'You have signed in');
     }
 
 
@@ -76,7 +77,7 @@ class CustomAuthController extends Controller
             return view('dashboard', ['user' => $user]);
         }
 
-        return redirect("login")->withSuccess('You are not allowed to access');
+        return redirect("login")->with('status', 'You are not allowed to access');
     }
 
 
@@ -86,5 +87,25 @@ class CustomAuthController extends Controller
         Auth::logout();
 
         return Redirect('login');
+    }
+
+    public function adminIndex()
+    {
+        return view('admin.adminlogin');
+    }
+
+    public function adminLogin(Request $request)
+    {
+        $request->validate([
+            'email' => 'required',
+            'password' => 'required',
+        ]);
+
+        $credentials = $request->only('email', 'password');
+        if (Auth::attempt($credentials)) {
+            return redirect()->route('/home')->with('status', 'You have signed in!');
+        }
+
+        return back()->with('status', 'Login details are not valid');
     }
 }

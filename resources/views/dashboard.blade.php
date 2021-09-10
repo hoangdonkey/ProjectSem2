@@ -8,7 +8,11 @@
         </p>
     </div>
 </div>
-
+@if (session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
 <h1 class="page-title text-center">Welcome back, {{$user->name}}</h1>
 <div class="container">
 <h3 class="">

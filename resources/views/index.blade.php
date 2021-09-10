@@ -82,7 +82,7 @@
 
                   </button>
 
-                  <a class="navbar-name" href="{{url('/')}}"><h1 class="logo">Give-AID</h1></a>
+                  <a class="navbar-name" href="{{url('/')}}"><img src="assets/images/logo.png" class="logo-group" width="70px" height="70px"></a>
 
                 </div>
 
@@ -382,122 +382,33 @@
 
             <div class="row">
 
-                <div class="col-md-3 col-sm-6">
+                @foreach($causes as $key => $data)
 
-                    <div class="cause">
+		                <div class="col-md-3 col-sm-6">
 
-                        <img src="assets/images/causes/cause-hunger.jpg" alt="" class="cause-img">
+		                    <div class="cause">
 
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                            10$ / 500$
-                          </div>
-                        </div>
+		                        <img src="assets/images/causes/cause-hunger.jpg" alt="" class="cause-img">
 
-                        <h4 class="cause-title"><a href="#">HUNGER AND POVERTY </a></h4>
-                        <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                        </div>
+		                        <div class="progress cause-progress">
+		                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+		                            {{$data -> total_amount}}$/{{$data -> goal}}$
+		                          </div>
+		                        </div>
 
-                        <div class="btn-holder text-center">
+		                        <h4 class="cause-title"><a href="{{url('causes-single')}}">{{$data -> cause_title}}</a></h4>
+		                        <div class="cause-details">
+		                            {{$data->description}}
+		                        </div>
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                        </div>
-
-
-
-                    </div> <!-- /.cause -->
-
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-
-                    <div class="cause">
-
-                        <img src="assets/images/causes/cause-education.jpg" alt="" class="cause-img">
-
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            400$ / 700$
-                          </div>
-                        </div>
-
-                        <h4 class="cause-title"><a href="#">EDUCATION AND TRAINING</a></h4>
-                        <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                        </div>
-
-                        <div class="btn-holder text-center">
-
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                        </div>
+		                        <div class="btn-holder text-center">
+		                          <a href="{{url('causes-single')}}" class="btn btn-primary" data-toggle="modal" data-target="#donateModal">DONATE NOW</a>
+		                        </div>
+		                    </div> <!-- /.cause -->
+		                </div>
+					@endforeach
 
 
-
-                    </div> <!-- /.cause -->
-
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-
-                    <div class="cause">
-
-                        <img src="assets/images/causes/cause-rights.jpg" alt="" class="cause-img">
-
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                            400$ / 1000$
-                          </div>
-                        </div>
-
-                        <h4 class="cause-title"><a href="#">HUMAN RIGHTS</a></h4>
-                        <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                        </div>
-
-                        <div class="btn-holder text-center">
-
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                        </div>
-
-
-
-                    </div> <!-- /.cause -->
-
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-
-                    <div class="cause">
-
-                        <img src="assets/images/causes/cause-culture.jpg" alt="" class="cause-img">
-
-                        <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            400$ / 700$
-                          </div>
-                        </div>
-
-                        <h4 class="cause-title"><a href="#">ARTS AND CULTURE </a></h4>
-                        <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                        </div>
-
-                        <div class="btn-holder text-center">
-
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                        </div>
-
-
-
-                    </div> <!-- /.cause -->
-
-                </div>
 
             </div>
 

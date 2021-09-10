@@ -14,9 +14,7 @@ use App\Http\Controllers\CustomAuthController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'TopController@index');
 
 Route::get('/about', function () {
     return view('about');
@@ -54,3 +52,9 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+
+Route::get('admin', 'CustomAuthController@adminIndex')->name('admin');
+Route::post('admin', 'CustomAuthController@adminLogin')->name('admin');
+Route::get('admindashboard', function () {
+    return view('admin.home');
+})->name('/home');

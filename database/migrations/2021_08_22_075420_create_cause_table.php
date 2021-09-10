@@ -17,7 +17,7 @@ class CreateCauseTable extends Migration
             $table->id('cause_id');
             $table->string('cause_title');
             $table->string('category');
-            $table->string('description');
+            $table->longText('description');
             $table->integer('goal');
             $table->integer('total_amount');
             $table->integer('dnt_amount');

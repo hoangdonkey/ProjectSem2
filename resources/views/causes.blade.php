@@ -32,7 +32,7 @@
 		                        <img src="assets/images/causes/cause-hunger.jpg" alt="" class="cause-img">
 
 		                        <div class="progress cause-progress">
-		                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+		                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
 		                            {{$data -> total_amount}}$/{{$data -> goal}}$
 		                          </div>
 		                        </div>
@@ -265,6 +265,3 @@
 	</div> <!-- /.main-container  -->
 
 @endsection
-
-    </body>
-</html>
