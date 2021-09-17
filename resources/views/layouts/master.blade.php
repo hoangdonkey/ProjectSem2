@@ -145,11 +145,11 @@
 
                             <div class="footer-content">
                                 <p>
-                                    <strong>Sadaka</strong> was established in January 2001 to provide emergency assistance in the countries of the Africa. Since then, adhering to the concept of “psycho-social and self-reliance support,” Sadaka has been consistently in charge of offering support activities to those people who have been stricken with hardship due to conflicts and disasters across the globe, in every phase of recovery from emergency assistance to reconstruction.
+                                    <strong>Give-AID</strong> was established in January 2001 to provide emergency assistance in the countries of the Africa. Since then, adhering to the concept of “psycho-social and self-reliance support,” Give-AID has been consistently in charge of offering support activities to those people who have been stricken with hardship due to conflicts and disasters across the globe, in every phase of recovery from emergency assistance to reconstruction.
                                 </p>
 
                                 <p>
-                                    <strong>Sadaka</strong> became a non-profit organization in 2010, opening its headquarters in Hanoi, Vietnam. Authorized by the National Tax Agency on September 2011, Sadaka offers assistance activities in Nigeria, Ghana, Senegal, Sudan Maroc, Camaroon as of October 2016.
+                                    <strong>Give-AID</strong> became a non-profit organization in 2010, opening its headquarters in Hanoi, Vietnam. Authorized by the National Tax Agency on September 2011, Give-AID offers assistance activities in Nigeria, Ghana, Senegal, Sudan Maroc, Camaroon as of October 2016.
                                 </p>
 
                             </div>
@@ -255,7 +255,7 @@
         <div class="footer-bottom">
 
             <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+                Give-AID @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
             </div>
         </div>
 

@@ -67,7 +67,7 @@
 
 				<div class="col-md-4 col-md-offset-1 col-contact">
 
-					<h2 class="title-style-2"> SADAKA CONTACTS <span class="title-under"></span></h2>
+					<h2 class="title-style-2"> GIVE-AID CONTACTS <span class="title-under"></span></h2>
 					<p>
                         Please contact us immediately when you have any intention to contribute to society
 					</p>
@@ -78,7 +78,7 @@
 							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span> 135 Hay el nahda, Rabat, Morocco</li>
 							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-phone"></i></span> 00 210 25 55  55 11</li>
 
-							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-envelope"></i></span> contact@sadaka.org</li>
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-envelope"></i></span> contact@give-aid.org</li>
 						</ul>
 					</div>
 

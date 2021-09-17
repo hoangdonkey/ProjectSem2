@@ -14,11 +14,11 @@
 </div>
 
   <div class="main-container">
-      <div class="thanks">
+      <div style="text-align: center">
           <h1 class="title-style-1">Thank you for your donation!</h1>
-          <h3 class="">"A single act of kindness throws out roots in all directions, and the roots spring up and make new trees." <br>
+          <h3>"A single act of kindness throws out roots in all directions, and the roots spring up and make new trees." <br>
             Amelia Earhart</h3>
-            <a href="{{url('causes')}}" class="btn btn-primary">Back to Causes</a>
+            <a style="margin-bottom: -50px"class="btn btn-primary" href="{{url('causes')}}" >Back to Causes</a>
       </div>
   </div>
 

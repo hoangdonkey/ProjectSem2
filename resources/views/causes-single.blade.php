@@ -118,15 +118,15 @@
                 <ul role="tablist" class="nav bg-light nav-pills rounded-pill nav-fill mb-3">
                   <li class="nav-item">
                     <a data-toggle="pill" href="#nav-tab-card" class="nav-link active rounded-pill">
-                                        <i class="fa fa-credit-card"></i>
-                                        Credit Card
-                                    </a>
+                        <i class="fa fa-credit-card"></i>
+                        Credit Card
+                    </a>
                   </li>
                   <li class="nav-item">
                     <a data-toggle="pill" href="#nav-tab-bank" class="nav-link rounded-pill">
-                                        <i class="fa fa-university"></i>
-                                         Bank Transfer
-                                     </a>
+                        <i class="fa fa-university"></i>
+                        Bank Transfer
+                    </a>
                   </li>
                 </ul>
                 <!-- End -->
@@ -173,7 +173,7 @@
                           </div>
                         </div>
                       </div>
-                      <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm"> Confirm  </button>
+                      <a href="{{url('complete')}}" type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm">Confirm</a>
                     </form>
                   </div>
                   <!-- End -->

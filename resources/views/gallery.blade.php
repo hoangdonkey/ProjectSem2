@@ -175,7 +175,7 @@
 
 {{--                            <div class="footer-content">--}}
 {{--                                <p>--}}
-{{--                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.--}}
+{{--                                    <strong>Give-AID</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.--}}
 {{--                                </p>--}}
 
 {{--                                <p>--}}
