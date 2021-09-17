@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CustomAuthController;
-
+use app\Http\Controllers\CustomAuthController;
+use App\Models\Causes;
+use App\Models\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,8 +30,21 @@ Route::get('/gallery', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/causes-single', function () {
+    $causes = Causes::where('cause_id', '=', 8)
+        ->get()
+        ->first();
+    $users  = User::where('id', '=', 1)
+        ->get()
+        ->first();
+    return view('causes-single', ['causes' => $causes, 'user' => $users]);
+});
 
-Route::get('/causes-single', 'CauseController@cause');
+Route::get('/causes-single/{cause_id}', 'CauseController@cause');
+
+Route::get('transaction', function () {
+    return view('transaction');
+});
 
 // Route::get('/register', 'RegisterController@create');
 
@@ -52,9 +66,3 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
-
-Route::get('admin', 'CustomAuthController@adminIndex')->name('admin');
-Route::post('admin', 'CustomAuthController@adminLogin')->name('admin');
-Route::get('admindashboard', function () {
-    return view('admin.home');
-})->name('/home');

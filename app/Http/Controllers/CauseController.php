@@ -17,10 +17,9 @@ class CauseController extends Controller
         return view('causes', ['causes' => $causes]);
     }
 
-    public function cause()
+    public function cause($cause_id)
     {
-        // $causes = DB::table('causes');
-        $causes = Causes::where('cause_id', '=', 1)
+        $causes = Causes::where('cause_id', '=', $cause_id)
             ->get()
             ->first();
         $users  = User::where('id', '=', 1)

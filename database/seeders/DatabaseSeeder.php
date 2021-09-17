@@ -49,7 +49,7 @@ class DatabaseSeeder extends Seeder
         DB::table('causes')->insert([
             [
                 'cause_title' => "Cause title 1",
-                'category' => 'Category 1',
+                'category' => 'Hunger',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -58,7 +58,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 2",
-                'category' => 'Category 2',
+                'category' => 'Culture',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 3",
-                'category' => 'Category 3',
+                'category' => 'Rights',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -76,7 +76,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 4",
-                'category' => 'Category 4',
+                'category' => 'Rights',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -85,7 +85,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 5",
-                'category' => 'Category 5',
+                'category' => 'Culture',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -94,7 +94,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 6",
-                'category' => 'Category 6',
+                'category' => 'Hunger',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -103,7 +103,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 7",
-                'category' => 'Category 7',
+                'category' => 'Rights',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,
@@ -112,7 +112,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'cause_title' => "Cause title 8",
-                'category' => 'Category 8',
+                'category' => 'Hunger',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
                 'goal' => 10000,
                 'total_amount' => 5000,

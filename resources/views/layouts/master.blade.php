@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
+        <base href="{{ asset('/')}} ">
         <meta charset="utf-8">
-        <title>About | Charity / Non-profit responsive Bootstrap HTML5 template</title>
+        <title>Give-AID</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,7 +11,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
-        <!-- Bootsrap -->
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
         <!-- Font awesome -->
@@ -19,7 +20,7 @@
         <!-- Template main Css -->
         <link rel="stylesheet" href="assets/css/style.css">
 
-        <!-- Modernizr -->
+        <!-- Modernizer -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
 
