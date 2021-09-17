@@ -50,7 +50,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 1",
                 'category' => 'Hunger',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'Though we tend to take good things in life for granted, but not everyone in the world has been blessed with the necessary means to lead a dignified life.',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -59,7 +59,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 2",
                 'category' => 'Culture',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'The world has made swift economic progress over the past few decades, but even today an unimaginable number of people in the world struggle to live a basic life.',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -68,7 +68,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 3",
                 'category' => 'Rights',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'A lot of children and people are deprived of certain must-haves like education, healthcare, shelter, safety, etc.',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 4",
                 'category' => 'Rights',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'If donating a little portion of your total income can help bring about a changein the life of even a single marginalised child, it’s totally worth it. ',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -86,7 +86,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 5",
                 'category' => 'Culture',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'The inner satisfaction you get from doing something for others cannot be explained in words.',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -95,7 +95,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 6",
                 'category' => 'Hunger',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'Giving and helping those who are not as privileged as you will definitely make you feel that despite having a capped income, you’re still capable enough to make a big difference in the lives of other people. ',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -104,7 +104,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 7",
                 'category' => 'Rights',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'This will also gratify you to the core and make you appreciate everything that life has given you. You don’t have to be a millionaire to take out a part of your income and donate for a noble cause. ',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,
@@ -113,7 +113,7 @@ class DatabaseSeeder extends Seeder
             [
                 'cause_title' => "Cause title 8",
                 'category' => 'Hunger',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque nisi facilis incidunt quod numquam distinctio, sapiente exercitationem nulla porro dolorem voluptatem, culpa fuga magnam, sequi dignissimos consequatur sed quaerat!',
+                'description' => 'Try it and see for yourself, donating will leave you feeling happier and richer, apart from brining an unparalleled sense of satisfaction.',
                 'goal' => 10000,
                 'total_amount' => 5000,
                 'dnt_amount' => 100,

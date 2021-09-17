@@ -30,26 +30,16 @@
 
 					<h2 class="title-style-2">ABOUT SADAKA <span class="title-under"></span></h2>
 
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nulla quae possimus id fugit totam perspiciatis ad consequatur natus dolores unde ipsa, architecto, dignissimos corrupti explicabo provident debitis suscipit, beatae!
-					</p>
+                    <p>
+                        Over the decades, non-governmental organizations have played a big role in society. Unlike governments, NGOs can work internationally more easily. They are more often welcomed into areas with conflict. NGOs conduct important research, hold governments and institutions like the United Nations accountable, and contribute to development. There are as many NGOs as problems in the world. These organizations are not without their flaws, however. Many NGOs have been accused of corruption and even abuse. Better policies, like increased transparency with funding and improved evaluation systems, can help identify harmful or ineffective NGOs.
+                    </p>
+                    <p>
+                        <strong>Sadaka</strong> was established in January 2001 to provide emergency assistance in the countries of the Africa. Since then, adhering to the concept of “psycho-social and self-reliance support,” Sadaka has been consistently in charge of offering support activities to those people who have been stricken with hardship due to conflicts and disasters across the globe, in every phase of recovery from emergency assistance to reconstruction.
+                    </p>
 
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
-					</p>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit.
-					</p>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
-					</p>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit , quia. Explicabo minima error excepturi minus, aperiam illum fugit.
-
-					</p>
+                    <p>
+                        <strong>Sadaka</strong> became a non-profit organization in 2010, opening its headquarters in Hanoi, Vietnam. Authorized by the National Tax Agency on September 2011, Sadaka offers assistance activities in Nigeria, Ghana, Senegal, Sudan Maroc, Camaroon as of October 2016.
+                    </p>
 
 				</div>
 
@@ -70,7 +60,7 @@
 			                        <h3 class="col-title">our mission</h3>
 			                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                        <p>We put our utmost efforts into restoring a self-supporting livelihood both economically and mentally to those people who have been stricken with hardship due to conflicts and disasters.</p>
 
 			                        </div>
 			                        <a href="#" class="btn btn-primary"> Read more </a>
@@ -90,7 +80,7 @@
 			                        <h3 class="col-title">Make donations</h3>
 			                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                        <p>Donation so we can have more funds to help more people.</p>
 
 			                        </div>
 			                        <a href="#" class="btn btn-primary"> Read more </a>
@@ -110,7 +100,7 @@
 			                        <h3 class="col-title">Help & support</h3>
 			                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                        <p>With a shrinking space for civil society in many parts of the world, NGOs struggle to live in a new reality that often discredits them. With Sadaka, you can give our your support.</p>
 
 			                        </div>
 			                        <a href="#" class="btn btn-primary"> Read more </a>
@@ -130,7 +120,7 @@
 			                        <h3 class="col-title">our programs</h3>
 			                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                        <p>Poverty reduction programs can provide the poor with the equipment and skills to obtain food and water. </p>
 
 			                        </div>
 			                        <a href="#" class="btn btn-primary"> Read more </a>
