@@ -30,20 +30,11 @@ Route::get('/gallery', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/causes-single', function () {
-    $causes = Causes::where('cause_id', '=', 8)
-        ->get()
-        ->first();
-    $users  = User::where('id', '=', 1)
-        ->get()
-        ->first();
-    return view('causes-single', ['causes' => $causes, 'user' => $users]);
-});
 
 Route::get('/causes-single/{cause_id}', 'CauseController@cause');
 
-Route::get('transaction', function () {
-    return view('transaction');
+Route::get('complete', function () {
+    return view('complete');
 });
 
 // Route::get('/register', 'RegisterController@create');
