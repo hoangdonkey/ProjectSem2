@@ -224,7 +224,7 @@
                         <h3 class="col-title">our mission</h3>
                         <div class="col-details">
 
-                          <p>We put our utmost efforts into restoring a self-supporting livelihood both economically and mentally to those people who have been stricken with hardship due to conflicts and disasters.</p>
+                          <p class="col-description">We put our utmost efforts into restoring a self-supporting livelihood both economically and mentally to those people who have been stricken with hardship due to conflicts and disasters.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -244,7 +244,7 @@
                         <h3 class="col-title">Make donations</h3>
                         <div class="col-details">
 
-                          <p>Donation so we can have more funds to help more people.</p>
+                          <p class="col-description">Donation so we can have more funds to help more people.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -264,7 +264,7 @@
                         <h3 class="col-title">Help & support</h3>
                         <div class="col-details">
 
-                          <p>With a shrinking space for civil society in many parts of the world, NGOs struggle to live in a new reality that often discredits them. With Sadaka, you can give our your support.</p>
+                          <p class="col-description">With a shrinking space for civil society in many parts of the world, NGOs struggle to live in a new reality that often discredits them. With Sadaka, you can give our your support.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -284,7 +284,7 @@
                         <h3 class="col-title">our programs</h3>
                         <div class="col-details">
 
-                          <p>Poverty reduction programs can provide the poor with the equipment and skills to obtain food and water.</p>
+                          <p class="col-description">Poverty reduction programs can provide the poor with the equipment and skills to obtain food and water.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
