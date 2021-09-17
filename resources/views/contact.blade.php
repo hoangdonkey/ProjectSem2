@@ -8,7 +8,7 @@
 
 			<h1 class="page-title">CONTACT US <span class="title-under"></span></h1>
 			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
+                To help you help the society more
 			</p>
 
 		</div>
@@ -69,7 +69,7 @@
 
 					<h2 class="title-style-2"> SADAKA CONTACTS <span class="title-under"></span></h2>
 					<p>
-						<b>Sadaka</b> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla .
+                        Please contact us immediately when you have any intention to contribute to society
 					</p>
 
 					<div class="contact-items">

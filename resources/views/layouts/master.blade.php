@@ -145,11 +145,11 @@
 
                             <div class="footer-content">
                                 <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>Sadaka</strong> was established in January 2001 to provide emergency assistance in the countries of the Africa. Since then, adhering to the concept of “psycho-social and self-reliance support,” Sadaka has been consistently in charge of offering support activities to those people who have been stricken with hardship due to conflicts and disasters across the globe, in every phase of recovery from emergency assistance to reconstruction.
                                 </p>
 
                                 <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>Sadaka</strong> became a non-profit organization in 2010, opening its headquarters in Hanoi, Vietnam. Authorized by the National Tax Agency on September 2011, Sadaka offers assistance activities in Nigeria, Ghana, Senegal, Sudan Maroc, Camaroon as of October 2016.
                                 </p>
 
                             </div>

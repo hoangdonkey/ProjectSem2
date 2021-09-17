@@ -224,7 +224,7 @@
                         <h3 class="col-title">our mission</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>We put our utmost efforts into restoring a self-supporting livelihood both economically and mentally to those people who have been stricken with hardship due to conflicts and disasters.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -244,7 +244,7 @@
                         <h3 class="col-title">Make donations</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>Donation so we can have more funds to help more people.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -264,7 +264,7 @@
                         <h3 class="col-title">Help & support</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>With a shrinking space for civil society in many parts of the world, NGOs struggle to live in a new reality that often discredits them. With Sadaka, you can give our your support.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -284,7 +284,7 @@
                         <h3 class="col-title">our programs</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>Poverty reduction programs can provide the poor with the equipment and skills to obtain food and water.</p>
 
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -322,12 +322,9 @@
 
                         <div class="on-hover hidden-xs">
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                            <p> We put our utmost efforts into restoring a self-supporting livelihood both economically and mentally to those people who have been stricken with hardship due to conflicts and disasters. We do so promptly, precisely, and flexibly by fully utilizing local human and material resources, considering this the most promising way to revitalize the society.</p>
 
-
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
-
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                            <p> Furthermore, we also try to convey victims’ sufferings and their efforts to overcome such sufferings along with their hopes and desires to the rest of the world so that the value of peace is seen in a new light and is shared by people everywhere.</p>
 
                         </div>
                     </div>
@@ -350,12 +347,11 @@
 
                         <div class="on-hover hidden-xs">
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                            <p> Being a caregiver is one of the most important and personally rewarding roles a person will play in their lifetime.</p>
 
+                            <p> Caregiving does not just have a positive impact on those who receive care, but on those who provide care as well. </p>
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
-
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                            <p> From gaining a greater sense of purpose to new life skills, it’s clear that the benefits of caregiving don’t just apply to the recipient, but also those who  care. </p>
 
                         </div>
 
@@ -471,11 +467,11 @@
                             <div class="footer-content">
 
                                 <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>Sadaka</strong> was established in January 2001 to provide emergency assistance in the countries of the Africa. Since then, adhering to the concept of “psycho-social and self-reliance support,” Sadaka has been consistently in charge of offering support activities to those people who have been stricken with hardship due to conflicts and disasters across the globe, in every phase of recovery from emergency assistance to reconstruction.
                                 </p>
 
                                 <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+{{--                                    <strong>Sadaka</strong> became a non-profit organization in 2010, opening its headquarters in Hanoi, Vietnam. Authorized by the National Tax Agency on September 2011, Sadaka offers assistance activities in Nigeria, Ghana, Senegal, Sudan Maroc, Camaroon as of October 2016.--}}
                                 </p>
 
                             </div>
